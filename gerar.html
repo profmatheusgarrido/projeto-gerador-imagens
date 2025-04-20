@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <title>Gerar Imagem</title>
+</head>
+<body>
+    <header>
+        <h1>Gerar Imagem</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Descreva a imagem desejada</h2>
+        <form action="#">
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao" required>
+            <button type="submit">Gerar</button>
+        </form>
+
+        <h3>Imagem Gerada</h3>
+        <img src="https://picsum.photos/400/200" alt="Imagem gerada" id="imagem-gerada">
+        
+        <p><a href="index.html">Voltar para a Página Inicial</a></p>
+    </main>
+</body>
+</html>
